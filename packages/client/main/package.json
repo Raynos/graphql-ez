@@ -44,7 +44,7 @@
     "changesets-github-release": "^0.1.0",
     "esbuild": "^0.16.9",
     "eventsource": "^2.0.2",
-    "extract-files": "^11.0.0",
+    "extract-files": "^13.0.0",
     "form-data": "^4.0.0",
     "graphql": "16.1.0-experimental-stream-defer.6",
     "graphql-ws": "^5.11.2",

@@ -1236,7 +1236,7 @@ importers:
       changesets-github-release: ^0.1.0
       esbuild: ^0.16.9
       eventsource: ^2.0.2
-      extract-files: ^11.0.0
+      extract-files: ^13.0.0
       form-data: ^4.0.0
       graphql: 16.1.0-experimental-stream-defer.6
       graphql-ws: ^5.11.2
@@ -1262,7 +1262,7 @@ importers:
       changesets-github-release: 0.1.0
       esbuild: 0.16.9
       eventsource: 2.0.2
-      extract-files: 11.0.0
+      extract-files: 13.0.0
       form-data: 4.0.0
       graphql: 16.1.0-experimental-stream-defer.6
       graphql-ws: 5.11.2_ptiko6tsqj7cmirxhjfetabnhu
@@ -10829,6 +10829,13 @@ packages:
     engines: {node: ^12.20 || >= 14.13}
     dev: true
 
+  /extract-files/13.0.0:
+    resolution: {integrity: sha512-FXD+2Tsr8Iqtm3QZy1Zmwscca7Jx3mMC5Crr+sEP1I303Jy1CYMuYCm7hRTplFNg3XdUavErkxnTzpaqdSoi6g==}
+    engines: {node: ^14.17.0 || ^16.0.0 || >= 18.0.0}
+    dependencies:
+      is-plain-obj: 4.1.0
+    dev: true
+
   /extract-files/9.0.0:
     resolution: {integrity: sha512-CvdFfHkC95B4bBBk36hcEmvdR2awOdhhVUYH6S/zrVj3477zven/fJMYg7121h4T1xHZC+tetUpubpAhxwI7hQ==}
     engines: {node: ^10.17.0 || ^12.0.0 || >= 13.7.0}
@@ -12471,7 +12478,6 @@ packages:
   /is-plain-obj/4.1.0:
     resolution: {integrity: sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==}
     engines: {node: '>=12'}
-    dev: false
 
   /is-plain-object/2.0.4:
     resolution: {integrity: sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==}
