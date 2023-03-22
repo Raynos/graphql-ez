@@ -754,7 +754,7 @@ importers:
       esbuild: ^0.16.9
       graphql: 16.1.0-experimental-stream-defer.6
       graphql-ez: workspace:*
-      graphql-request: ^5.0.0
+      graphql-request: ^5.2.0
       next: ^12.3.4
       react: ^17.0.2
       react-dom: ^17.0.2
@@ -772,7 +772,7 @@ importers:
       '@graphql-typed-document-node/core': 3.1.1_ptiko6tsqj7cmirxhjfetabnhu
       graphql: 16.1.0-experimental-stream-defer.6
       graphql-ez: link:../../../packages/core/main
-      graphql-request: 5.1.0_ptiko6tsqj7cmirxhjfetabnhu
+      graphql-request: 5.2.0_ptiko6tsqj7cmirxhjfetabnhu
       next: 12.3.4_sfoxds7t5ydpegc3knd667wn6m
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -11669,8 +11669,8 @@ packages:
       lodash.get: 4.4.2
     dev: false
 
-  /graphql-request/5.1.0_ptiko6tsqj7cmirxhjfetabnhu:
-    resolution: {integrity: sha512-0OeRVYigVwIiXhNmqnPDt+JhMzsjinxHE7TVy3Lm6jUzav0guVcL0lfSbi6jVTRAxcbwgyr6yrZioSHxf9gHzw==}
+  /graphql-request/5.2.0_ptiko6tsqj7cmirxhjfetabnhu:
+    resolution: {integrity: sha512-pLhKIvnMyBERL0dtFI3medKqWOz/RhHdcgbZ+hMMIb32mEPa5MJSzS4AuXxfI4sRAu6JVVk5tvXuGfCWl9JYWQ==}
     peerDependencies:
       graphql: '*'
     dependencies:
