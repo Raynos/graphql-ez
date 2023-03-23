@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@envelop/core": "^3.0.4",
-    "@pothos/core": "^3.23.2",
+    "@pothos/core": "^3.29.0",
     "@types/node": "^18.11.15",
     "bob-esbuild-cli": "^4.0.0",
     "changesets-github-release": "^0.1.0",

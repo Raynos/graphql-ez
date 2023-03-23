@@ -555,7 +555,7 @@ importers:
     specifiers:
       '@graphql-ez/fastify': workspace:*
       '@graphql-ez/plugin-graphiql': workspace:*
-      '@pothos/core': ^3.23.2
+      '@pothos/core': ^3.29.0
       '@types/node': ^18.11.15
       bob-tsm: ^1.1.2
       esbuild: ^0.16.9
@@ -566,7 +566,7 @@ importers:
     dependencies:
       '@graphql-ez/fastify': link:../../../packages/fastify/main
       '@graphql-ez/plugin-graphiql': link:../../../packages/plugin/graphiql
-      '@pothos/core': 3.23.2_ptiko6tsqj7cmirxhjfetabnhu
+      '@pothos/core': 3.29.0_ptiko6tsqj7cmirxhjfetabnhu
       fastify: 4.10.2
       graphql: 16.1.0-experimental-stream-defer.6
       graphql-ez: link:../../../packages/core/main
@@ -1944,7 +1944,7 @@ importers:
       '@envelop/core': ^3.0.4
       '@envelop/dataloader': ^4.0.4
       '@envelop/execute-subscription-event': ^3.0.4
-      '@pothos/core': ^3.23.2
+      '@pothos/core': ^3.29.0
       '@types/node': ^18.11.15
       bob-esbuild-cli: ^4.0.0
       changesets-github-release: ^0.1.0
@@ -1961,7 +1961,7 @@ importers:
       dataloader: 2.1.0
     devDependencies:
       '@envelop/core': 3.0.4
-      '@pothos/core': 3.23.2_ptiko6tsqj7cmirxhjfetabnhu
+      '@pothos/core': 3.29.0_ptiko6tsqj7cmirxhjfetabnhu
       '@types/node': 18.11.17
       bob-esbuild-cli: 4.0.0
       changesets-github-release: 0.1.0
@@ -7115,8 +7115,8 @@ packages:
     resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
     dev: false
 
-  /@pothos/core/3.23.2_ptiko6tsqj7cmirxhjfetabnhu:
-    resolution: {integrity: sha512-A+YANU9RKIXQdJyOl6elPp95SHtQdl8f/v9FSTK7cfwn5V1wapz9NFouOCtuh9BCnFntH5HBTA2RexOf4LpryQ==}
+  /@pothos/core/3.29.0_ptiko6tsqj7cmirxhjfetabnhu:
+    resolution: {integrity: sha512-6LcrnZ3QRQrbWvKLfdSvfrk1nyezLaDAT8yIhQXLOhhtm3iK+knIpdGbNfKiTgxbdSDkK69IcXNV4ifcq23bIQ==}
     peerDependencies:
       graphql: '*'
     dependencies:
