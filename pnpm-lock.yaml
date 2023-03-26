@@ -1561,7 +1561,7 @@ importers:
 
   packages/helix/graphiql:
     specifiers:
-      '@graphiql/toolkit': 0.4.5
+      '@graphiql/toolkit': 0.8.3
       '@graphql-ez/utils': workspace:^
       '@graphql-tools/url-loader': 7.16.26
       '@graphql-tools/utils': ^9.1.3
@@ -1590,7 +1590,7 @@ importers:
     dependencies:
       '@graphql-ez/utils': link:../../core/utils
     devDependencies:
-      '@graphiql/toolkit': 0.4.5_axju25hs6f4iwancviqvsbdqne
+      '@graphiql/toolkit': 0.8.3_axju25hs6f4iwancviqvsbdqne
       '@graphql-tools/url-loader': 7.16.26_62tt6vwbifqpm3xiaf432b57wi
       '@graphql-tools/utils': 9.1.3_ptiko6tsqj7cmirxhjfetabnhu
       '@n1ru4l/graphql-live-query': 0.9.0_ptiko6tsqj7cmirxhjfetabnhu
@@ -5243,8 +5243,8 @@ packages:
       - graphql-ws
     dev: true
 
-  /@graphiql/toolkit/0.4.5_axju25hs6f4iwancviqvsbdqne:
-    resolution: {integrity: sha512-QXuuMSSK/0GfBS7tltrGZdyhIvm6oe9TK4VW9pfa8dALYttpzyJ64Q4Sx9I1Ng++yOMJWziM/ksa043zkNHsjQ==}
+  /@graphiql/toolkit/0.6.1_axju25hs6f4iwancviqvsbdqne:
+    resolution: {integrity: sha512-rRjbHko6aSg1RWGr3yOJQqEV1tKe8yw9mDSr/18B+eDhVLQ30yyKk2NznFUT9NmIDzWFGR2pH/0lbBhHKmUCqw==}
     peerDependencies:
       graphql: '*'
       graphql-ws: '>= 4.5.0'
@@ -5257,11 +5257,14 @@ packages:
       - '@types/node'
     dev: true
 
-  /@graphiql/toolkit/0.6.1_axju25hs6f4iwancviqvsbdqne:
-    resolution: {integrity: sha512-rRjbHko6aSg1RWGr3yOJQqEV1tKe8yw9mDSr/18B+eDhVLQ30yyKk2NznFUT9NmIDzWFGR2pH/0lbBhHKmUCqw==}
+  /@graphiql/toolkit/0.8.3_axju25hs6f4iwancviqvsbdqne:
+    resolution: {integrity: sha512-B5WfZlBes/tMmM7TeTTD/F2E1kbtQD6PYmyX76qWrIt1Sx3+lQoCe8NzHbBvNII77F5sr737RASmkhQ1fcdFWQ==}
     peerDependencies:
       graphql: '*'
       graphql-ws: '>= 4.5.0'
+    peerDependenciesMeta:
+      graphql-ws:
+        optional: true
     dependencies:
       '@n1ru4l/push-pull-async-iterable-iterator': 3.2.0
       graphql: 16.1.0-experimental-stream-defer.6
